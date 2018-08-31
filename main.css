@@ -1,0 +1,89 @@
+body {
+    position: relative;
+}
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+}
+
+header img {
+    max-width: 150px;
+    flex: 1;
+}
+nav#nav-bar {
+    background-color: bisque;
+    height: 100%;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    /* position: absolute; */
+    flex: 1;
+    margin-left: auto;
+    max-width: 500px;
+}
+
+a.nav-link {
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 130px;
+}
+
+form#form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+input#submit {
+    margin-top: 10px;
+}
+
+.feature {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.feature i.fas {
+    margin-right: 20px;
+}
+
+div#pricing {
+    display: flex;
+    min-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.price-section {
+    flex: 1 1 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rosybrown;
+}
+
+@media screen and (max-width: 992px) {
+    div#pricing {
+        flex-wrap: wrap;
+    }
+  }
